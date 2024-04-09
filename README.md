@@ -4,7 +4,7 @@ geom99 Group Project
 This website will be submitted for credit in GEOM99 at Fleming College Frost Campus
 
 Group contributions are as follows:  
-Athulya Shabu - 
+Athulya Sabu - 
 Rahul Saravanabavan -  
 Helen Plesko - 
 Sharmila Wagle- 

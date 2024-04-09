@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GeoLogic Innovations - Web Design</title>
+    <link rel="Stylesheet" href="style.css"> 
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!-------------------
+    - Owner : Rahul Saravanabavan
+    - Date  : Nov 28 (template)
+    - From  : https://www.w3schools.com/html/html_intro.asp
+    --------------------->
+    <header>
+        <nav>
+            <img src="img/gislogo.png" alt="GIS Logo" class="logo">
+	    <h1><a href="index.html">GeoLogic Innovations</a></h1>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg></a></li>
+                <li><a href="cartography.html">Cartography</a></li>
+                <li><a href="programming.html" class="active-page">Programming</a></li>
+                <li><a href="surveying.html">Surveying And CAD Mapping</a></li>
+                <li><a href="databases.html">DataBase</a></li>
+                <li><a href="geodesy.html">Geodesy</a></li>
+                <li><a href="remotesensing.html">Remote Sensing</a></li>
+            </ul>
+		<!-----------------------------------------------------------------
+		- Owner: Thiluxsaan Puvanendran
+		-Date: Nov 07 (template)
+		-From: https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
+		-------------------------------------------------------------------->
+		<button class = "button" onclick = "Modedark()">Dark Mode</button>
+		<!------------***End Owner: Thiluxsaan Puvanendran***------------>
+	    <ul class="sub-menu">
+                <li><a href="programming.html" class="active-page">Web Design and Programming</a></li>
+                <li><a href="pythonprogramming.html">Problem Solving and Programming</a></li>
+            </ul>
+            <ul>
+                <li class="hide"><a href="cartography.html">Cartography</a></li>
+                <li class="hide"><a href="programming.html" class="active-page">Programming</a></li>
+                <li class="hide"><a href="surveying.html">Surveying And CAD Mapping</a></li>
+                <li class="hide"><a href="databases.html">DataBase</a></li>
+                <li class="hide"><a href="geodesy.html">Geodesy</a></li>
+                <li class="hide"><a href="remotesensing.html">Remote Sensing</a></li>
+                <li class="hamburger-button" onclick=showSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="M120-240v-80h520v80H120Zm664-40L584-480l200-200 56 56-144 144 144 144-56 56ZM120-440v-80h400v80H120Zm0-200v-80h520v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--*** End Owner: Rahul Saravanabavan *** -->
+	
+    <!-------------------
+    - Content Owner : Tyler Rubini
+    - Date  : Dec 5th
+    --------------------->
+    <!-- The main content of this page includes a general overview of the skills and knowledge we gained from taking our web design class, plus another section to exhibit examples of our web design skills. Each 
+	 subsection is under a separate div, then subdivided further using paragraph tags for readability purposes. -->
+    <div id="main-content">
+        <div class="section">
+            <h2>Web Design and Programming</h2>
+            <h3>Overview</h3>
+            <p> 
+                Web design has been a key component of our studies at Fleming College this year. We began by learning the fundamentals of how the internet works, including basic concepts like what ping is, how HTTP 
+		functions, client-server relationships, and URL encoding. Soon afterwards, we moved on to HTML and CSS, which we spent several weeks becoming familiar with. We learned how to use them to define the 
+		content of a website, then modify that content in order to create a visually interesting and user-friendly design for any given website. Once we had a significant grasp of those two fundamental 
+		languages, we began to learn how to use Javascript to create more dynamic websites with a greater degree of interactivity.
+            </p>
+        </div>
+	<!-- I decided to use this section to show off a few elements that some of our group members integrated into their own personal websites. I used screenshots in order to highlight specific parts of their pages. -->
+        <div class="section">
+            <h3>Assignment 2: Personal Website</h3>
+            <p> 
+		As a part of our program of study, we were each asked to create an individual website in order to exhibit the HTML, CSS, and general web design skills that we had learned in the course up to 
+		that point. Each site was required to contain at least two pages of content and was intended to serve as a personal resume. Since this was an individual assignment, each team member produced a unique final 
+		product. This section will exhibit points of interest from various team members' websites.
+            </p>
+	    <!-- I have used standard image tags to link this image and two others that are stored in the /img subfolder. Each has recieved a CSS ID to set it to its native resolution and set resize parameters for
+		 responsive design purposes. -->
+	    <img src="img/tylerwebsite.png" alt="The education table on Tyler's website" id="wd1">
+	    <!-- Each image on this page has received a caption, which is centred below the image and made into a slightly smaller font using a CSS class -->
+            <p class="caption"> 
+		Tyler's website included a table communicating his educational achievements. He assigned a unique ID to each row, then used CSS to create a mouse-over effect that turned the background and text into the 
+		school's colours.
+            </p>
+	    <img src="img/luxwebsite.png" alt="The navbar on Thiluxsaan's website" id="wd2">	
+	    <p class="caption">
+		Thiluxsaan's website included a navigation bar which appeared at the top right of every page. It was attractive, well-aligned, and used CSS to change colours to a white background upon mouse-over.
+	    </p>
+	    <img src="img/jacksonwebsite.png" alt="The navbar on Jackson's website" id="wd3">
+	    <p class="caption">
+		Jackson's website included a navigation bar which appeared at the top left of every page. Each link gained a gray background upon mouse-over, and in addition, the top two links turned orange depending 
+		on which of the pages the user was on.
+	    </p>
+	    <p>
+		This project provided us with valuable hands-on experience in website design. It taught us how to design professional websites that will allow us (or any company we represent) to present our best possible 
+		face to the general public. In the modern era, having no web presence is almost the same as being invisible in a business sense, so having these skills could well prove vital in terms of gaining clients 
+		and networking within the GIS industry. Having completed this set of websites, we are much more confident in our ability to work in HTML, CSS, and Javascript, and we look forward to using those languages 
+		to implement solutions for future employers and clients.
+	    </p>
+        </div>
+    </div>
+    <!--*** End Owner: Tyler Rubini *** -->
+    	
+    <!------------------
+    - Owner : Tyler Rubini
+    - Date  : Nov 22 (template)
+    - From  : https://www.w3schools.com/tags/tag_footer.asp
+    -------------------->
+    <footer>
+        <div>
+        <h4>Our Team:</h4>
+        </div>
+        <!-- Instructions for column layout adapted from https://www.w3schools.com/howto/howto_css_four_columns.asp -->
+        <div class="row">
+            <div class="column">
+            <p class="name">Jackson Mitchell</p>
+            <a class="email" href="#">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Thiluxsaan Puvanendran</p>
+            <a class="email" href="#">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Tyler Rubini</p>
+            <a class="email" href="#">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Rahul Saravanabavan</p>
+            <a class="email" href="#">Email</a>
+            </div>
+            <div class="column">
+            <p class="name">Parkavi Shanmugam</p>
+            <a class="email" href="#">Email</a>
+            </div>
+        </div>
+        <div id="team">
+        All team members are currently attending Fleming College's GIS Application Specialist post-graduate program.
+        </div>
+    </footer>
+    <!--*** End Owner: Tyler Rubini *** -->
+
+</body>
+</html>

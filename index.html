@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>GeoLogic Innovations</title>
-    <link rel="Stylesheet" href="style.css"> 
+    <title>AHRS Transporation</title>
+    <link rel="stylesheet" href="style.css"> 
     <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +17,7 @@
 <header>
         <nav>
             <img src="img/gislogo.png" alt="GIS Logo" class="logo">
-	    <h1><a href="index.html" class="active-page">GeoLogic Innovations</a></h1>
+	    <h1><a href="index.html" class="active-page">AHRS Transporation</a></h1>
             <ul class="sidebar">
                 <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg></a></li>
                 <li><a href="cartography.html">Cartography</a></li>
@@ -27,13 +27,6 @@
                 <li><a href="geodesy.html">Geodesy</a></li>
                 <li><a href="remotesensing.html">Remote Sensing</a></li>
             </ul>
-		<!-----------------------------------------------------------------
-		- Owner: Thiluxsaan Puvanendran
-		-Date: Nov 07 (template)
-		-From: https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
-		-------------------------------------------------------------------->
-		<button class = "button" onclick = "Modedark()">Dark Mode</button>
-		<!------------***End Owner: Thiluxsaan Puvanendran***------------>
             <ul>
                 <li class="hide"><a href="cartography.html">Cartography</a></li>
                 <li class="hide"><a href="programming.html">Programming</a></li>
@@ -44,69 +37,61 @@
                 <li class="hamburger-button" onclick=showSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="M120-240v-80h520v80H120Zm664-40L584-480l200-200 56 56-144 144 144 144-56 56ZM120-440v-80h400v80H120Zm0-200v-80h520v80H120Z"/></svg></a></li>
             </ul>
         </nav>
-    </header>
+</header>
 
 
     <!--*** End Owner: Rahul Saravanabavan *** -->
 	
     <!-------------------
-    - Owner : Jackson Mitchell
-    - Date  : Nov 22 (template)
+    - Owner : Helen Plesko
+    - Date  : April 10, 2024
+	- Section: PROBLEM STATEMENT
     - From  : https://www.w3schools.com/html/html_intro.asp (format)
-
-    - Content : Jackson Mitchell
-    - Date    : Dec 4 
     --------------------->
     <div id="main-content-landing">
-        <h1 id="landing-Header">Fresh Geographic Information Systems Applications Students Ready For Consulting Opportunities In Industry</h1>
+        <h1 id="landing-Header">Public Transportation Routing in Lindsay, Ontario</h1>
     </div>
 
     <div id="section-landing">
-        <p> 
-            We are a group of highly educated students who are freshly graduating from the Fleming College Geographic Information Systems Application Specialist graduate certificate program
-            and are ready for opportunities in the GIS field. We have honed our skills in many sectors of GIS and have created this website that acts as an overview of the skills we have gained over 
-	    the 10 month program.
-        </p>
+        <p>Four GIS students at Sir Sandford Fleming College hoping to make taking public transit in Lindsay, Ontario, easier for everyone.</p>
     </div>
-    <!--*** End Owner: Jackson Mitchell *** -->
+	
+	<hr class="rounded">
+	
+	<div class="problemstatement">
+		<h2>Problem Statement</h2>
+		
+		<h3>Ideal</h3>
+		<p>A user-friendly public web application that will help the general public navigate around Lindsay, Ontario, by public transportation.</p>
+		
+		<h3>Reality</h3>
+		<p>Members of the rural community like Lindsay do not have quick access to public transit routes on common navigation apps like Google Maps. </p>
+		
+		<h3>Consequences</h3>
+		<p>User error may include the public getting lost or missing their bus stop. The study area for this project is Lindsay, Ontario, however, the application can be adapted at a later date to consider other areas without public transportation maps. </p>
+		
+		<h3>Proposal</h3>
+		<p>Finding technologies that are required to make a user-friendly public web application that will help the general public navigate rural areas like Lindsay through public transportation.</p>
+		
+		<h3>Technology Used</h3>
+		<p>ArcGIS Hub, ArcGIS Experience Builder, ArcGIS Online, Open Source</p>
+	</div>
+<!-- *** Helen Content Section End *** -->
     	
-    <!------------------
-    - Owner : Tyler Rubini
-    - Date  : Nov 22 (template)
-    - From  : https://www.w3schools.com/tags/tag_footer.asp
-    -------------------->
-    <footer>
-        <div>
-        <h4>Our Team:</h4>
-        </div>
-        <!-- Instructions for column layout adapted from https://www.w3schools.com/howto/howto_css_four_columns.asp -->
-        <div class="row">
-            <div class="column">
-            <p class="name">Jackson Mitchell</p>
-            <a class="email" href="#">Email</a>
-            </div>
-            <div class="column">
-            <p class="name">Thiluxsaan Puvanendran</p>
-            <a class="email" href="#">Email</a>
-            </div>
-            <div class="column">
-            <p class="name">Tyler Rubini</p>
-            <a class="email" href="#">Email</a>
-            </div>
-            <div class="column">
-            <p class="name">Rahul Saravanabavan</p>
-            <a class="email" href="#">Email</a>
-            </div>
-            <div class="column">
-            <p class="name">Parkavi Shanmugam</p>
-            <a class="email" href="#">Email</a>
-            </div>
-        </div>
-        <div id="team">
-        All team members are currently attending Fleming College's GIS Application Specialist post-graduate program.
-        </div>
-    </footer>
-    <!--*** End Owner: Tyler Rubini *** -->
+<!-- --------------------
+- Owner: 	Helen Plesko
+- Date:		April 10, 2024
+- Section:	FOOTER
+- Inspired By: 	https://www.evarigisconsulting.com/
+				https://www.w3schools.com/html/html_layout.asp
+--------------------- -->
+<footer>
+	<div class="footertext">
+		<p>GEOM99 Web GIS Development | Sir Sandford Fleming College | Winter 2024</p>
+		<p>Copyright 2024 AHRS Transporation</p>
+	</div>
+</footer>
+<!-- *** Helen Footer Section End *** -->
 
 </body>
 </html>

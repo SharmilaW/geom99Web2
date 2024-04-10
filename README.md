@@ -1,10 +1,14 @@
-# Web2
-geom99 Group Project
+# Web 2
 
-This website will be submitted for credit in GEOM99 at Fleming College Frost Campus
+Public Transportation Routing in Lindsay, Ontario
 
-Group contributions are as follows:  
-Athulya Sabu - 
-Rahul Saravanabavan -  
-Helen Plesko - 
-Sharmila Wagle- 
+## Overview
+
+This website was created as a deliverable for GEOM99 Web GIS Development course at Sir Sandford Fleming College Frost Campus
+
+## Team
+
+- Athulya Sabu
+- Rahul Saravanabavan
+- Helen Plesko
+- Sharmila Wagle

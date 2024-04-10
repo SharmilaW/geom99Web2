@@ -614,7 +614,7 @@ footer {
 }
 
 /* Sets the colour and font size of the names in the footer. Also sets a 0px bottom margin to simulate a line break without an HTML tag */
-.name {
+.name p {
     margin-bottom: 0px;
     color: #000;
     font-size: 22px;
@@ -663,10 +663,4 @@ footer {
 	color: #FFF;
 }
 
-/* Centers the icon on the webpage */
-.centericon {
-	display: flex;
-    column-gap: 10px;
-    justify-content: center;
-}
 /* End Owner: Helen Plesko */

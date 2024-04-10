@@ -293,18 +293,6 @@ p{
 /* Owner: Tyler Rubini
    Date: Nov 22 2023 */
 
-/* Heavily modifies the footer. Adds colour to both the font and background, aligns the text to the centre, and adds padding. */
-footer {
-    color: #f1fcff;
-    font-family: sans-serif;
-    background-color: #000;
-    text-align: center;
-    padding: 0px;
-    margin-top: auto;
-    position: relative;
-    padding: 10px;
-}
-
 /* Modifies the h4 class to have a 10px upper margin, colorized text that is bolded, and an 18 point font size */
 h4 {
     margin-bottom: 0px;
@@ -312,34 +300,6 @@ h4 {
     color: #f1fcff;
     font-weight: bold;
     font-size: 18px;
-}
-
-/* Sets the colour and font size of the names in the footer. Also sets a 0px bottom margin to simulate a line break without an HTML tag */
-.name {
-    margin-bottom: 0px;
-    color: #f1fcff;
-    font-size: 16px;
-}
-
-/* Sets the colour and font size of the email links in the footer. Also sets a 0px upper margin to simulate a line break without an HTML tag. */
-.email {
-    margin-top: 0px;
-    color: Gray;
-    font-size: 16px;
-}
-
-/* Sets the width and text colour for the columns that make up the footer */
-.column {
-    float: left;
-    width: 20%;
-    color: #f1fcff;
-}
-
-/* Creates a pseudo-element that resets the floats for any elements that come after this part of the footer */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 /* Sets a 20px top margin and a 16 point font size for the line of text at the bottom of the footer. */
@@ -604,7 +564,7 @@ source https://www.w3schools.com/howto/howto_css_image_center.asp
 Owner: Helen Plesko
 Date: April 10, 2024
 */
-/* Customization of problem statement heading 2 text */
+/* Customization of problem statement fonts */
 .problemstatement h2 {
     font-family: Helvetica, sans-serif;
     color: #000000;
@@ -614,7 +574,6 @@ Date: April 10, 2024
     margin-bottom: 5px;
 	text-align: center;
 }
-/* Customization of problem statement heading 3 text */
 .problemstatement h3 {
     font-family: Helvetica, sans-serif;
     color: #000000;
@@ -625,7 +584,6 @@ Date: April 10, 2024
     flex: 0 0 100%;
 	text-align: center;
 }
-/* Customization of problem statement paragraph text */
 .problemstatement p { 
     font-family: Helvetica, sans-serif;
     color: #000000;
@@ -656,5 +614,62 @@ footer {
 	font-weight: normal;
 	font-size: 13px;
 	font-family: helvetica, arial, sans-serif;
+}
+
+/* Sets the colour and font size of the names in the footer. Also sets a 0px bottom margin to simulate a line break without an HTML tag */
+.name {
+    margin-bottom: 0px;
+    color: #000;
+    font-size: 22px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* Sets the width and text colour for the columns that make up the footer */
+.column {
+    float: left;
+    width: 25%;
+	text-align: center;
+}
+
+/* Creates a pseudo-element that resets the floats for any elements that come after this part of the footer */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Customization of social icons */
+.fab, .fas {
+	padding: 15px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	transition: .3s ease-in-out;
+}
+
+/* Customization of social icon - makes icon semi-transparent when user hovers over it */
+.fab:hover, .fas:hover{
+    opacity: 0.5;
+}
+
+/* Customization of footer Facebook icon */
+.fa-envelope {
+	background: #000;
+	color: #FFF;
+}
+
+/* Customization of footer Twitter icon */
+.fa-linkedin {
+	background: #000;
+	color: #FFF;
+}
+
+/* Centers the icon on the webpage */
+.centericon {
+	display: flex;
+    column-gap: 10px;
+    justify-content: center;
 }
 /* End Owner: Helen Plesko */

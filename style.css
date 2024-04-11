@@ -250,7 +250,7 @@ body{
     width: 80%;
 }
 
-.section,#section-landing {
+.section {
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -480,15 +480,7 @@ source https://www.w3schools.com/howto/howto_css_image_center.asp
     padding: 0px;
 }
 
-#section-landing {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-}
-#section-landing p {
-    font-size: 30px;
-}
+
 /*
 - Owner: Jackson Mitchell
 - Date Nov 30 2023
@@ -620,7 +612,7 @@ footer {
 }
 
 /* Sets the colour and font size of the names in the footer. Also sets a 0px bottom margin to simulate a line break without an HTML tag */
-.name p {
+.name h3 {
     margin-bottom: 0px;
     color: #000;
     font-size: 22px;
@@ -669,4 +661,13 @@ footer {
 	color: #FFF;
 }
 
+.teamintro {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+.teamintro h2 {
+    font-size: 30px;
+}
 /* End Owner: Helen Plesko */

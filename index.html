@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AHRS Transporation</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- External link to font awesome icons (social media icons in the footer and stars and quotation marks on client testimonials page) -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <!-------------------
+    - Owner : Rahul Saravanabavan
+    - Date  : Nov 28 (template)
+    - From  : https://www.w3schools.com/html/html_intro.asp
+    --------------------->
+<header>
+        <nav>
+            <img src="img/gislogo.png" alt="GIS Logo" class="logo">
+	    <h1><a href="index.html" class="active-page">AHRS Transporation</a></h1>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg></a></li>
+                <li><a href="solution.html">Solution</a></li>
+                <li><a href="attempts.html">Attempts</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="future.html">Future Consideration</a></li>
+            </ul>
+            <ul>
+                <li><a href="solution.html">Solution</a></li>
+                <li><a href="attempts.html">Attempts</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="future.html">Future Consideration</a></li>
+                <li class="hamburger-button" onclick=showSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="M120-240v-80h520v80H120Zm664-40L584-480l200-200 56 56-144 144 144 144-56 56ZM120-440v-80h400v80H120Zm0-200v-80h520v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+</header>
+
+
+    <!--*** End Owner: Rahul Saravanabavan *** -->
+	
+    <!-------------------
+    - Owner: Helen Plesko
+    - Date: April 10, 2024
+	- Section: PROBLEM STATEMENT
+    - Inspiration: 	layout, https://www.w3schools.com/html/html_intro.asp
+					email links, https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_email
+					font awesome free icons, https://fontawesome.com/v5/search?m=free
+    --------------------->
+    <div id="main-content-landing">
+        <h1 id="landing-Header">Public Transportation Routing in Lindsay, Ontario</h1>
+    </div>
+
+    <div id="section-landing">
+        <p>Four GIS students at Sir Sandford Fleming College hoping to make taking public transit in Lindsay, Ontario, easier for everyone.</p>
+    </div>
+    
+	<div class="row">
+		<div class="column">
+			<p class="name">Athulya Sabu</p>
+			<a href="mailto:athulya.sabu@flemingcollege.ca" class="fas fa-envelope" title="Athulya's Fleming email" target="_blank"></a>
+			<a href="https://twitter.com/" class="fab fa-linkedin" title="Athulya's LinkedIn page" target="_blank"></a>
+		</div>
+		<div class="column">
+			<p class="name">Helen Plesko</p>
+			<a href="mailto:helen.plesko@flemingcollege.ca" class="fas fa-envelope" title="Helen's Fleming email" target="_blank"></a>
+			<a href="https://www.linkedin.com/in/helenplesko/" class="fab fa-linkedin" title="Helen's LinkedIn page" target="_blank"></a>
+		</div>
+		<div class="column">
+			<p class="name">Rahul Saravanabavan</p>
+			<a href="mailto:rahul.saravanabavan@flemingcollege.ca" class="fas fa-envelope" title="Rahul's Fleming email" target="_blank"></a>
+			<a href="https://www.linkedin.com/in/rahulsaravanabavan/" class="fab fa-linkedin" title="Rahul's LinkedIn page" target="_blank"></a>
+		</div>
+		<div class="column">
+			<p class="name">Sharmila Wagle</p>
+			<a href="mailto:sharmila.wagle@flemingcollege.ca" class="fas fa-envelope" title="Sharmila's Fleming email" target="_blank"></a>
+			<a href="https://www.linkedin.com/in/sharmila-wagle/" class="fab fa-linkedin" title="Sharmila's LinkedIn page" target="_blank"></a>
+		</div>
+	</div>
+	
+	<hr class="rounded">
+	
+	<div class="problemstatement">
+		<h2>Problem Statement</h2>
+		
+		<h3>Ideal</h3>
+		<p>A user-friendly public web application that will help the general public navigate around Lindsay, Ontario, by public transportation.</p>
+		
+		<h3>Reality</h3>
+		<p>Members of the rural community like Lindsay do not have quick access to public transit routes on common navigation apps like Google Maps. </p>
+		
+		<h3>Consequences</h3>
+		<p>User error may include the public getting lost or missing their bus stop. The study area for this project is Lindsay, Ontario, however, the application can be adapted at a later date to consider other areas without public transportation maps. </p>
+		
+		<h3>Proposal</h3>
+		<p>Finding technologies that are required to make a user-friendly public web application that will help the general public navigate rural areas like Lindsay through public transportation.</p>
+		
+		<h3>Technology Used</h3>
+		<p>ArcGIS Hub, ArcGIS Experience Builder, ArcGIS Online, Open Source</p>
+	</div>
+<!-- *** Helen Content Section End *** -->
+    	
+<!-- --------------------
+- Owner: 	Helen Plesko
+- Date:		April 10, 2024
+- Section:	FOOTER
+- Inspired By: 	https://www.evarigisconsulting.com/
+				https://www.w3schools.com/html/html_layout.asp
+--------------------- -->
+<footer>
+	<div class="footertext">
+		<p>GEOM99 Web GIS Development | Sir Sandford Fleming College | Winter 2024</p>
+		<p>Copyright 2024 AHRS Transporation</p>
+	</div>
+</footer>
+<!-- *** Helen Footer Section End *** -->
+
+</body>
+</html>

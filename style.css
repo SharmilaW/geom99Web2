@@ -501,7 +501,7 @@ source https://www.w3schools.com/howto/howto_css_image_center.asp
         font-size: 40px;
     }
 /* This is the responsive section for our footer which has the flex display and direction to coloumn  so that if the page attains the maximum width of 550px it transforms to the coloumn*/
-    #section-landing p {
+    #section-landing h2 {
         font-size: 20px;
     }
     .row {
@@ -611,20 +611,19 @@ footer {
 	font-family: helvetica, arial, sans-serif;
 }
 
-/* Sets the colour and font size of the names in the footer. Also sets a 0px bottom margin to simulate a line break without an HTML tag */
-.name h3 {
-    margin-bottom: 0px;
-    color: #000;
-    font-size: 22px;
-	text-align: center;
-	font-weight: bold;
-}
-
 /* Sets the width and text colour for the columns that make up the footer */
 .column {
     float: left;
     width: 25%;
 	text-align: center;
+}
+
+.column h3 {
+    margin-bottom: 0px;
+    color: #000;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
 }
 
 /* Creates a pseudo-element that resets the floats for any elements that come after this part of the footer */
